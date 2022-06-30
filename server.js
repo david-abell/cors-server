@@ -10,6 +10,7 @@ corsProxy
     originWhitelist: [
       "http://localhost:3000",
       "http://localhost:3000/dashboard/settings",
+      "https://main--jade-frangollo-461156.netlify.app",
     ],
     requireHeader: ["origin", "x-requested-with"],
     removeHeaders: ["cookie", "cookie2"],
